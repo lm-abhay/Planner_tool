@@ -1,0 +1,112 @@
+[
+    {
+      "id": 1,
+      "version_id": 624,
+      "campaign_name": "Mouthwash_Brand",
+      "org_id": 1,
+      "created_by": 1261,
+      "updated_by": 1261,
+      "deleted": "0",
+      "creation_date": "2023-01-11 22:42:25",
+      "last_update": "2023-01-27 15:00:59"
+    },
+    {
+      "id": 2,
+      "version_id": 625,
+      "campaign_name": "Skin_Brand",
+      "org_id": 2,
+      "created_by": 1262,
+      "updated_by": 1262,
+      "deleted": "1",
+      "creation_date": "2023-01-19 22:46:03",
+      "last_update": "2023-01-19 22:46:03"
+    },
+    {
+      "id": 3,
+      "version_id": 626,
+      "campaign_name": "Telecom_Brand",
+      "org_id": 3,
+      "created_by": 1263,
+      "updated_by": 1263,
+      "deleted": "2",
+      "creation_date": "2023-01-19 22:46:51",
+      "last_update": "2023-01-19 22:46:51"
+    },
+    {
+      "id": 4,
+      "version_id": 627,
+      "campaign_name": "Mobile_Brand",
+      "org_id": 4,
+      "created_by": 1264,
+      "updated_by": 1264,
+      "deleted": "3",
+      "creation_date": "2023-01-19 22:48:34",
+      "last_update": "2023-01-19 22:48:34"
+    },
+    {
+      "id": 5,
+      "version_id": 628,
+      "campaign_name": "Pen_Brand",
+      "org_id": 5,
+      "created_by": 1265,
+      "updated_by": 1265,
+      "deleted": "4",
+      "creation_date": "2023-01-19 22:49:30",
+      "last_update": "2023-01-19 22:49:30"
+    },
+    {
+      "id": 6,
+      "version_id": 629,
+      "campaign_name": "Biscuit_Brand",
+      "org_id": 6,
+      "created_by": 1266,
+      "updated_by": 1266,
+      "deleted": "5",
+      "creation_date": "2023-01-19 22:50:08",
+      "last_update": "2023-01-19 22:50:08"
+    },
+    {
+      "id": 7,
+      "version_id": 630,
+      "campaign_name": "laptop_Brand",
+      "org_id": 7,
+      "created_by": 1276,
+      "updated_by": 1276,
+      "deleted": "5",
+      "creation_date": "2023-01-14 21:32:25",
+      "last_update": "2023-01-27 16:04:48"
+    },
+    {
+      "id": 8,
+      "version_id": 631,
+      "campaign_name": "Medicine_Brand",
+      "org_id": 8,
+      "created_by": 1277,
+      "updated_by": 1277,
+      "deleted": "6",
+      "creation_date": "2023-01-19 22:51:51",
+      "last_update": "2023-01-19 22:51:51"
+    },
+    {
+      "id": 9,
+      "version_id": 632,
+      "campaign_name": "Water_Brand",
+      "org_id": 9,
+      "created_by": 1278,
+      "updated_by": 1278,
+      "deleted": "7",
+      "creation_date": "2023-01-19 22:52:37",
+      "last_update": "2023-01-19 22:52:37"
+    },
+    {
+      "id": 10,
+      "version_id": 634,
+      "campaign_name": "India_Brand",
+      "org_id": 10,
+      "created_by": 1279,
+      "updated_by": 1279,
+      "deleted": "8",
+      "creation_date": "2023-01-16 21:32:25",
+      "last_update": "2023-01-27 15:02:13"
+    }
+  ]
