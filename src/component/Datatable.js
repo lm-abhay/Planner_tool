@@ -122,26 +122,14 @@ function Data() {
                     <TableHead>
                       <TableRow>
                         <StyledTableCell>Id</StyledTableCell>
-                        <StyledTableCell align="right">
-                          VersionID
-                        </StyledTableCell>
-                        <StyledTableCell align="right">
-                          CampaignName
-                        </StyledTableCell>
+                        <StyledTableCell align="right">VersionID</StyledTableCell>                                                 
+                        <StyledTableCell align="right">CampaignName</StyledTableCell>                                                  
                         <StyledTableCell align="right">OrgID</StyledTableCell>
-                        <StyledTableCell align="right">
-                          CreatedBy
-                        </StyledTableCell>
-                        <StyledTableCell align="right">
-                          UpdatedBy
-                        </StyledTableCell>
+                        <StyledTableCell align="right">CreatedBy</StyledTableCell>                                                
+                        <StyledTableCell align="right"> UpdatedBy</StyledTableCell>                                                 
                         <StyledTableCell align="right">Deleted</StyledTableCell>
-                        <StyledTableCell align="right">
-                          CreationDate
-                        </StyledTableCell>
-                        <StyledTableCell align="right">
-                          LastUpdate
-                        </StyledTableCell>
+                        <StyledTableCell align="right">CreationDate</StyledTableCell>                                                 
+                        <StyledTableCell align="right">LastUpdate</StyledTableCell>                                                  
                       </TableRow>
                     </TableHead>
                     <TableBody className="Tb">                     
@@ -171,6 +159,7 @@ function Data() {
               </Box>
             </Grid>
           </Grid>
+          <h1 border="dotted"></h1>
           <Grid container marginY={10}>
             <Grid item xs={6}>
             <Chart //pieCharts

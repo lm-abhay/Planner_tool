@@ -26,7 +26,7 @@ var db *sql.DB
 var err error
 
 func main() {
-	db, err = sql.Open("mysql", "root:Admin@123@tcp(127.0.0.1:3306)/planner")
+	db, err = sql.Open("mysql", "abhay:Admin@123@tcp(127.0.0.1:3306)/planner")
 	if err != nil {
 		panic(err.Error())
 	}
@@ -96,8 +96,5 @@ func getCampaignPlanByDate(w http.ResponseWriter, r *http.Request) {
 		}
 		cam_pl = append(cam_pl, campaign_plan)
 	}
-	//json.NewEncoder(w).Encode(campaign_plan)
-	json.NewEncoder(w).Encode(cam_pl)
+      json.NewEncoder(w).Encode(cam_pl)
 }
-
-//ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';

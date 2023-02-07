@@ -2,6 +2,7 @@ import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import IconButton from "@mui/material/IconButton";
+
 import Typography from "@mui/material/Typography";
 import Menu from "@mui/material/Menu";
 import Container from "@mui/material/Container";
@@ -13,8 +14,6 @@ import React, {useState} from 'react';
 import 'react-date-range/dist/styles.css';
 import 'react-date-range/dist/theme/default.css';
 import { DateRange } from 'react-date-range';
-// import { spacing } from "@mui/system";
-// import ReactSearchBox from "react-search-box";
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import TuneIcon from '@mui/icons-material/Tune';
 import TextField from "@mui/material/TextField";
@@ -25,7 +24,6 @@ const pages = [""];
 const settings = [
   {text: "Home", key: "home"}, 
   {text: "Search by Inventory", key: "searchbyinventory"}, 
-  //{text: "Search By Date", key: "searchbydate"}, 
   {text: "Logout", key: "logout"}
 ];
 
@@ -37,6 +35,13 @@ function ResponsiveAppBar({setState1,state1,filterFn}) {
   const [anchorEl,setAnchorEl] = useState(null);
   const [searchInput, setSearchInput] = useState(null);
   const [inputText, setInputText] = useState("");
+  let inputHandler = (e) => {
+    //convert input text to lower case
+    var lowerCase = e.target.value.toLowerCase();
+    setInputText(lowerCase);
+  };
+  
+
 
 
   const isMenuOpen = Boolean(anchorEl);
